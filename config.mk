@@ -14,7 +14,7 @@ PLUGIN_MODULES := \
 
  #This implementation is not included in the code.
  #If you need it, add it yourselves.
- PLUGIN_MODULES += ifaddrs
+ #PLUGIN_MODULES += ifaddrs
 
 ENABLE_DEBUG  := false
 ENABLE_ICONV  := false
@@ -26,8 +26,8 @@ ENABLE_GBCONV := true
 LIBICONV_STANDALONE := false
 
 CUSTOM_CFLAGS := 
-CUSTOM_LDFLAGS += -L/~/libpcap-1.9.1
-CUSTOM_LIBS += ~/libpcap-1.9.1/libpcap.a
+CUSTOM_LDFLAGS += -L/home/lulu/ruijie/libpcap-1.9.1
+CUSTOM_LIBS += /home/lulu/ruijie/libpcap-1.9.1/libpcap.a
 CC := mipsel-openwrt-linux-gcc
 
 # Example for cross-compiling
