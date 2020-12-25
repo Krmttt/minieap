@@ -12,8 +12,8 @@ PLUGIN_MODULES := \
 # Other OS
  PLUGIN_MODULES += if_impl_libpcap
 
- This implementation is not included in the code.
- If you need it, add it yourselves.
+ #This implementation is not included in the code.
+ #If you need it, add it yourselves.
  PLUGIN_MODULES += ifaddrs
 
 ENABLE_DEBUG  := false
